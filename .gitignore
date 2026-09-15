@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & competition files (downloaded by the workflow)
+*.zip
+*.csv
+!data/*.csv
+train.csv
+test.csv
+sample_submission.csv
+submission.csv
+
+# Kaggle credentials (NEVER commit)
+kaggle.json
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
